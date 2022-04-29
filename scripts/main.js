@@ -30,3 +30,10 @@ document.querySelector(".two").innerHTML = `Last updated: ${oLastModif} `;
 // if (year == 2022) {
    // console.log("current year")
 //}
+
+//repetition
+//function makelist(item){
+    //document.querySelectir("div").innerHTML += "<li>"" + item + "</li>"
+//}
+//const myarray = ["a", "b", "c", "d"]
+//myarray.forEach(makelist);
