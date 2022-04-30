@@ -1,0 +1,30 @@
+@media screen and (max-width: 992px) {
+    .column-one {
+        grid-template-columns:1/2;
+    }
+
+    .column-two{
+        grid-template-columns:2/2;
+    }
+
+    .column-three{
+        grid-template-columns:1/2;
+        grid-template-rows:1/2;
+    }
+
+    .main-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr 1fr;
+        row-gap:10px;
+        display:grid;
+    }
+
+    h2{
+        float:center;
+    }
+
+    h1{
+        float:center;
+    }
+  }
+

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+header{
+    background-color:#81a1a1;
+    /* width:62em; */
+    text-align:center;
+    width:100%;
+    
+    
+}
+
+body{
+    margin:auto;
+    width:80%;
+    flex-shrink: 3;
+}
+
+h1{
+    margin-bottom:10px;
+    padding-top:10px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+h2{
+    margin-top:10px;
+    padding-bottom:7px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.column-one {
+    width:100%;
+    height:1050px;
+    background-color:#edefef;
+    margin:auto;
+    border-radius: 25px;
+    grid-template-columns:1/3;
+}
+
+a:link{
+    padding-left:15px;
+    padding-bottom:15px;
+    font-family: 'Inter', sans-serif;
+ 
+}
+
+img{
+    width:90%;
+    margin:auto;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:15px;
+}
+
+.prox{
+    background-color:#81a1a1;
+    height:40px;
+    border-radius: 25px 25px 0px 0px;
+
+   
+}
+
+p{
+    padding-left:15px;
+    margin-top:15px;
+    font-family: 'Inter', sans-serif;
+    padding-right:15px;
+}
+
+h3{
+    padding-left:15px;
+    padding-top:10px;
+    font-family: 'Playfair Display', serif;
+    margin-top:0;
+   
+}
+
+footer{
+    background-color:#81a1a1;
+    /* width:62em; */
+    text-align:center;
+    margin:auto;
+    height:50px;
+    margin-top:20px;
+    padding-bottom:5px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.one{
+    padding-top:15px;
+}
+
+
+
+
+.column-two{
+   
+    height:1050px;
+    background-color:#edefef;
+    margin:auto;
+    border-radius: 25px;
+    grid-template-columns:2/3;
+    width:100%;
+
+}
+
+.rep{
+    background-color:#81a1a1;
+    height:40px;
+    border-radius: 25px 25px 0px 0px;
+   
+}
+
+
+
+.column-three{
+   
+    height:1050px;
+    background-color:#edefef;
+    margin:auto;
+    border-radius: 25px;
+    grid-template-columns:3/3;
+    width:100%;
+}
+
+.ali{
+    background-color:#81a1a1;
+    height:40px;
+    border-radius: 25px 25px 0px 0px;
+   
+}
+
+
+.main-grid{
+    
+    width:100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
+    column-gap:10px;
+    display:grid;
+}
