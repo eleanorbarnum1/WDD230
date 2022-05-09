@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
+
+
+/*nav*/
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+   
+    background-color: #808782;
+    width:100%;
+    text-align:center;
+    display:flex;
+   
+}
+
+.nav li {
+    
+    margin:auto;
+    display:inline;
+
+  }
+
+.nav li a {
+    
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display:flex;
+    display:inline-block;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/*nav medium screen*/
+@media screen and (max-width: 992px) {
+
+    .nav{
+        display:flex;
+    }
+
+    .nav li{
+        display:flex;
+    }
+
+    .nav li a{
+        display:flex;
+    }
+}
+
+/*nav small screen*/
+@media screen and (max-width: 600px) {
+    .nav{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .nav li{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .nav li a{
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+
+/*css for all*/
+
+body{
+    width:70%;
+    margin:auto;
+    background-color:#FFFDED;
+}
+
+img{
+    width:25%;
+    height:25%;
+}
+
+p{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+
+/*individual sections css*/
+.main-blurb, .main-blurb2,.main-blurb3{
+    text-align:left;
+   
+}
+
+.scenarios{
+    margin:auto;
+    
+  }
+
+.table1{
+    padding-top:15px;
+    width:100%;
+    height:400px;
+    margin:auto;
+}
+
+.sample1, .sample3{
+    background-color:#0B4F6C;
+    color:white;
+}
+.sample2{
+    background-color:#DCC7BE;
+    color:black;
+}
+.sample4, .sample5, .sample6{
+    color:#0B4F6C;
+}
+.sample7{
+    color:black;
+}
+
+.table2{
+    padding-top:15px;
+    width:100%;
+    height:400px;
+    margin:auto;
+}
+
+.thing1, .thing2, .thing3, .thing4, .thing5, .thing6{
+    font-family: 'Libre Baskerville', serif;
+}
+.thing7{
+    font-family: 'Roboto', sans-serif;
+}
