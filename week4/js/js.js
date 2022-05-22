@@ -45,7 +45,7 @@ banner.addEventListener("click", function(){
 this.closest(".banner").style.display = "none";
 });
 
-if((weekdays[weekday_value] == "Saturday")||(weekdays[weekday_value] == "Sunday")){
+if((weekdays[weekday_value] == "Monday")||(weekdays[weekday_value] == "Tuesday")){
     banner.closest(".banner").style.display = "block";
 }else{
     banner.closest(".banner").style.display = "none";
