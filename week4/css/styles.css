@@ -270,41 +270,54 @@ nav ul.open{
 
 }
 
-#section-header{
+.section-header{
     color:#013220;
-    font-size:4em;
+    font-size:2em;
     text-align:center;
     margin-bottom:15px;
     margin-top:15px;
 }
-#placeholder{
+.placeholder{
     display:block;
     margin:auto;
     width:100px;
 }
-#section-hr{
+.section-hr{
     background:#013220;
     height:2px;
     border:none;
     margin-top:10px;
 }
-#section-text{
+.section-text{
     text-align:center;
     width:100%;
 
 
 }
-#spotlight-head{
+.spotlight-head{
     text-align:center;
 }
-
+.weather-grid{
+    grid-template-columns: 1fr 1fr;
+    display:grid;
+    
+}
+#weather-image{
+    grid-column:1/2;
+    display:block;
+    margin:auto;
+    width:100px;
+}
+#temp{
+    grid-column:2/3;
+    margin:auto;
+}
 #weather-p1{
     text-align:left;
-    margin-top:30px;
+
 }
 #weather-p2{
-    text-align:right;
-    margin-right:30px;
+    text-align:left;
 }
 #join-btn2{
     background-color:#0B4F6C;;

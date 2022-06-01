@@ -27,7 +27,7 @@
     
     <header>
         <div class="heading-grid">
-        <img id="logo" src="images/logo.jpg" alt="logo image">
+        <img id="logo" src="images/logo.webp" alt="logo image">
         <section class="headings">
             <h1>Midlothian</h1>
             <h2>Commerce Center</h2>
@@ -55,52 +55,60 @@
     <main>
         <div class="grid-container">
             <div class="hero">
-                <img id="hero-img" src="images/hero-image.jpg" alt="Picture of Midlothian">
+                <picture>
+                    <source srcset="images/hero-imageMEDIUM2.jpg" media="(min-width:450px) and (max-width:863px)">
+                    <source srcset="images/hero-imageLARGE2.jpg" media="(min-width:864px) and (max-width:1500px)">
+                    <img id="hero-img" src="images/hero-imageSMALL2.jpg" alt="Picture of Midlothian">
+
+                </picture>
                 <section class="title"><h1>Welcome to Midlothian!</h1></section>
                 <button id="join-btn">Join the Chamber</button>
             </div>
             <div class="news">
-                <h3 id="section-header">News Release</h3>
-                <p id="section-text">  hdjfbdskfbkshfidfhdskfhkdhfasfsdfksfkskfkafhkf hdkakfhkdsfhsdfhdjfbdskfbkshfidf hdskfhkdhfasfsdfksfkskfkafhkfhdkakf hkdsfhsdfhdjfbdskfbkshfidfhdskfhkdhfasfsdfksfkskfkafhkfhdkakfhkdsf hsdfhdjfbdskfbkshfidfhdskfhkdhfasfsdfksfkskfkafhkfhdk akfhkdsfhsdfhdjfbdskfbkshfidfhdskfhkdhfasfsdfksfkskfkafhk fhdkakfhkdsfhsdfhdjfbdskfbkshfidfhdskfhkdhfasfsd</p>
+                <h3 class="section-header">News Release</h3>
+                <p class="section-text">  hdjfbdskfbkshfidfhdskfhkdhfasfsdfksfkskfkafhkf hdkakfhkdsfhsdfhdjfbdskfbkshfidf hdskfhkdhfasfsdfksfkskfkafhkfhdkakf hkdsfhsdfhdjfbdskfbkshfidfhdskfhkdhfasfsdfksfkskfkafhkfhdkakfhkdsf hsdfhdjfbdskfbkshfidfhdskfhkdhfasfsdfksfkskfkafhkfhdk akfhkdsfhsdfhdjfbdskfbkshfidfhdskfhkdhfasfsdfksfkskfkafhk fhdkakfhkdsfhsdfhdjfbdskfbkshfidfhdskfhkdhfasfsd</p>
             </div>
             <div class="parent">
                 <section class="spot1">
-                    <h3 id="section-header">Business of Accounting</h3>
-                    <img id="placeholder" src="images/placeholder.jpg" alt="placeholder">
-                    <h4 id="spotlight-head">"We'll count your numbers!</h4>
-                    <hr id="section-hr">
-                    <p id="section-text">businessofAcc@gmail.com <br> (804)-555-5555</p>
+                    <h3 class="section-header">Business of Accounting</h3>
+                    <img class="placeholder" src="images/placeholder.jpg" alt="placeholder">
+                    <h4 class="spotlight-head">"We'll count your numbers!</h4>
+                    <hr class="section-hr">
+                    <p class="section-text">businessofAcc@gmail.com <br> (804)-555-5555</p>
                 </section>
                 <section class="spot2">
-                    <h3 id="section-header">Code Ninjas</h3>
-                    <img id="placeholder" src="images/placeholder.jpg"alt="placeholder">
-                    <h4 id="spotlight-head">Teach your children how to code!</h4>
-                    <hr id="section-hr">
-                    <p id="section-text">codeninjas@gmail.com <br> (804)-555-5555</p>
+                    <h3 class="section-header">Code Ninjas</h3>
+                    <img class="placeholder" src="images/placeholder.jpg"alt="placeholder">
+                    <h4 class="spotlight-head">Teach your children how to code!</h4>
+                    <hr class="section-hr">
+                    <p class="section-text">codeninjas@gmail.com <br> (804)-555-5555</p>
                 </section>
                 <section class="spot3">
-                    <h3 id="section-header">Chick-Fil-A</h3>
-                    <img id="placeholder" src="images/placeholder.jpg"alt="placeholder">
-                    <h4 id="spotlight-head">Fry Chicken with us!</h4>
-                    <hr id="section-hr">
-                    <p id="section-text">Chick-Fil-A@gmail.com <br> (804)-555-5555</p>
+                    <h3 class="section-header">Chick-Fil-A</h3>
+                    <img class="placeholder" src="images/placeholder.jpg"alt="placeholder">
+                    <h4 class="spotlight-head">Fry Chicken with us!</h4>
+                    <hr class="section-hr">
+                    <p class="section-text">Chick-Fil-A@gmail.com <br> (804)-555-5555</p>
                 </section>
             </div>
             <div class="join">
                 <button id="join-btn2"> Join Us!</button>
-                <p id="section-text">Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+                <p class="section-text">Discover how to join the chamber of commerce and how it will benefit your organization!</p>
             </div>
             <div class="event">
-                <h3 id="section-header">Hire Event</h3>
-                <img id="placeholder" src="images/placeholder.jpg"alt="placeholder">
-                <p id="section-text">Join us for our weekly hiring event! Starts at 1:00 p.m every Friday afternoon.</p>
+                <h3 class="section-header">Hire Event</h3>
+                <img class="placeholder" src="images/placeholder.jpg"alt="placeholder">
+                <p class="section-text">Join us for our weekly hiring event! Starts at 1:00 p.m every Friday afternoon.</p>
             </div>
             <div class="weather">
-                <h3 id="section-header">Weather</h3>
-                <img id="placeholder" src="images/placeholder.jpg"alt="placeholder">
-                <hr id="section-hr">
-                <p id="weather-p1">Wind Speed: <br> Wind Chill: </p>
-                <p id="weather-p2">2.5km/h <br> N/A </p>
+                <h3 class="section-header">Weather</h3>
+                <div class="weather-grid">
+                    <img id="weather-image" src="images/placeholder.jpg"alt="placeholder">
+                    <h2 id="temp"></h2>
+                </div>
+                <hr class="section-hr">
+                <p id="weather-p1">Wind Speed: </p>
+                <p id="weather-p2">Wind Chill: </p>
             </div>
         </div>
     </main>
@@ -129,5 +137,6 @@
     </div>
     </footer>
     <script src="js/js.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
