@@ -50,3 +50,15 @@ if((weekdays[weekday_value] == "Monday")||(weekdays[weekday_value] == "Tuesday")
 }else{
     banner.closest(".banner").style.display = "none";
 }
+
+
+//local storage
+
+const daysSince = document.getElementById("local-storage");
+const time = window.localStorage.getItem("visits-ls");
+
+if(time !==0){
+    daysSince.innerHTML = time;
+}else{
+    daysSince.innerHTML = `ugh.`;
+}

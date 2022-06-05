@@ -350,32 +350,41 @@ nav ul.open{
     grid-gap:10px;
 
 }
+.discover-pics{
+    width:280px;
+    border: 10px solid #0B4F6C;
+}
 .info-1{
     background-color: #BCC2C5;
+    padding-left:10px;
 }
 .discover-pic-1{
     margin:auto;
 }
 .info-2{
     background-color: #BCC2C5;
+    padding-left:10px;
 }
 .discover-pic-2{
     margin:auto; 
 }
 .info-3{
     background-color: #BCC2C5;
+    padding-left:10px;
 }
 .discover-pic-3{
     margin:auto;
 }
 .info-4{
     background-color: #BCC2C5;
+    padding-left:10px;
 }
 .discover-pic-4{
     margin:auto;
 }
 .info-5{
     background-color: #BCC2C5;
+    padding-left:10px;
 }
 .discover-pic-5{
     margin:auto;
@@ -391,6 +400,10 @@ nav ul.open{
 }
 .discover-pic-9{
     margin:auto;
+    display:inline;
+}
+#local-storage{
+    font-size:8px;
 }
 
 /*FOOTER...................................................*/
@@ -486,6 +499,7 @@ text-align:center;
     header{
         padding-bottom:10px;
         padding-top:10px;
+        width:100%;
     }
 
 
@@ -558,11 +572,16 @@ body{
     margin-top:20px;
     margin-bottom:20px;
     display:grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap:0;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     height:auto;
     
+}
+.discover-pics{
+    width:200px;
+}
+.discover-pics:hover{
+    opacity: .8;
 }
 .info-1{
     background-color: #BCC2C5;
@@ -632,6 +651,10 @@ body{
 .discover-pic-9{
     grid-column:2/3;
     grid-row:7/8;
+    display:none;
+}
+#local-storage{
+    font-size:12px;
 }
 
 /*FOOTER....................................................*/
@@ -816,11 +839,15 @@ body{
     margin-top:20px;
     margin-bottom:20px;
     display:grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap:0;
     height:auto;
     
+
+}
+.discover-pics{
+    width:225px;
 }
 .info-1{
     background-color: #BCC2C5;
@@ -829,13 +856,13 @@ body{
     text-align:left;
     padding-left:10px;
     
+    
 }
 .discover-pic-1{
     grid-column:4/5;
     grid-row:1/2;
- 
-
 }
+
 .info-2{
     background-color: #BCC2C5;
     grid-column:1/4;
@@ -896,6 +923,10 @@ body{
 .discover-pic-9{
     grid-column:4/5;
     grid-row:6/7;
+    display:inline;
+}
+#local-storage{
+    font-size:12px;
 }
 
 /*FOOTER.................................................*/
