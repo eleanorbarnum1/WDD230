@@ -9,6 +9,8 @@ h2{
 }
 h3{
     font-size:25px;
+    color: #013220;
+  
 }
 
 body{
@@ -79,7 +81,11 @@ h1,h2{
 }
 p, a, div{
     font-family: 'Roboto', sans-serif;
-    font-size:10px;
+    font-size:13px;
+}
+strong{
+    font-size:14px;
+    
 }
 .links{
     grid-row:1/2;
@@ -299,9 +305,6 @@ nav ul.open{
 
 
 }
-.spotlight-head{
-    
-}
 .weather-grid{
     grid-template-columns: 1fr 1fr;
     display:grid;
@@ -405,6 +408,91 @@ nav ul.open{
 #local-storage{
     font-size:8px;
 }
+/*JOIN PAGE...................................................*/
+/*main{
+    background-color:#BCC2C5;
+}*/
+form fieldset{
+    margin:2rem 0;
+    
+    padding: .6rem;
+}
+form legend{
+    color: #073447;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size:1rem;
+}
+form label.top, form div{
+    display:block;
+    padding-top:1rem;
+    color: black;
+    font-size:.8rem;
+}
+form label.top input, form label.top select, textarea{
+    -webkit-appearance: none;
+    display:block;
+    font-size:1rem;
+    border:solid 1px #999;
+    border-radius:4px;
+    padding:.75rem;
+    color: black;
+    width:90%;
+    max-width: 20rem;
+    background-color:white;
+}
+form input.submitBtn{
+    background-color:#0B4F6C;;
+    color:white;
+    padding:30px;
+    border:none;
+    border-radius:20px;
+    box-shadow: 0px 8px 15px darkgray;
+    display:block;
+    margin-top:30px;
+    font-size:15px;
+    
+}
+
+form label.sbs{
+    display:block;
+    padding:.75rem 0;
+    font-size:1rem;
+    padding-left:10px;
+    
+}
+
+.join-grid{
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:grid;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    background-color:#BCC2C5;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+.field-area{
+    grid-row:2/2;
+}
+.membership-info{
+    grid-row:1/2;
+}
+
+/*THANK YOU..........................................*/
+.small-body{
+    background-color:#BCC2C5;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-top:8px;
+    height:500px;
+}
 
 /*FOOTER...................................................*/
 footer{
@@ -500,6 +588,10 @@ text-align:center;
         padding-bottom:10px;
         padding-top:10px;
         width:100%;
+    }
+    strong{
+        font-size:16px;
+        
     }
 
 
@@ -723,6 +815,10 @@ body{
     p,a,div{
         font-size:16px;
     }
+    strong{
+        font-size:17px;
+        
+    }
     main{
         height:100%;
     }
@@ -927,6 +1023,24 @@ body{
 }
 #local-storage{
     font-size:12px;
+}
+/*JOIN PAGE...............................................*/
+.join-grid{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+    grid-gap:20px;
+}
+.field-area{
+    grid-column:1/2;
+    grid-row:1/2;
+    
+}
+.membership-info{
+    grid-column:2/2;
+    grid-row:1/2;
+    text-align:left;
+    padding-left:20px;
+   
 }
 
 /*FOOTER.................................................*/

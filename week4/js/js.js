@@ -54,11 +54,19 @@ if((weekdays[weekday_value] == "Monday")||(weekdays[weekday_value] == "Tuesday")
 
 //local storage
 
-const daysSince = document.getElementById("local-storage");
-const time = window.localStorage.getItem("visits-ls");
+//const daysSince = document.getElementById("local-storage");
+//const time = window.localStorage.getItem("visits-ls");
 
-if(time !==0){
-    daysSince.innerHTML = time;
-}else{
-    daysSince.innerHTML = `ugh.`;
-}
+//if(time !==0){
+ //   daysSince.innerHTML = time;
+//}else{
+//    daysSince.innerHTML = `ugh.`;
+//}
+
+
+
+//Join page//
+let joinTime = new Date();
+let hiddenDate = document.getElementById("join-date");
+hiddenDate = joinTime;
+console.log(hiddenDate);
