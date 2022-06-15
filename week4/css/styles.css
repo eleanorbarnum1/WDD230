@@ -494,6 +494,17 @@ form label.sbs{
     height:500px;
 }
 
+/* DIRECTORY ...............................................*/
+.directory-page{
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color:#BCC2C5;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+
 /*FOOTER...................................................*/
 footer{
     width:100%;
