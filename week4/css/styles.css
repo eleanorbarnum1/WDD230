@@ -501,9 +501,84 @@ form label.sbs{
     margin-top:20px;
     margin-bottom:20px;
     background-color:#BCC2C5;
-    padding-left:10px;
     padding-bottom:10px;
 }
+
+.cards section{
+    background-color:rgb(124, 147, 135, 0.5);
+    text-align:center;
+    width:16rem;
+    margin:auto;
+    margin-bottom:10px;
+    padding:15px;
+    margin-top:10px;
+    
+
+}
+.cards img{
+    width:150px;
+    padding-top:10px;
+}
+.card-viewimg{
+    min-width:150px;
+    padding-top:10px; 
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.lists section{
+    background-color:rgb(124, 147, 135, 0.5);
+    width:100%;
+    flex-direction:row;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:5px;
+    padding-right:0;
+    padding-left:0;
+    
+}
+
+.lists{
+    width:100%;
+    flex-direction:row;
+}
+.lists p, a, strong{
+padding:1px;
+margin:5px;
+}
+
+
+#card-viewBTN{
+    background-color:#0B4F6C;;
+    color:white;
+    padding:15px;
+    border:none;
+    border-radius:20px;
+    box-shadow: 0px 8px 15px black;
+    margin:10px;
+    margin-left:25px;
+    margin-bottom:40px;
+}
+#list-viewBTN{
+    background-color:#0B4F6C;;
+    color:white;
+    padding:15px;
+    border:none;
+    border-radius:20px;
+    box-shadow: 0px 8px 15px black;
+    margin:10px;
+    margin-bottom:40px;
+}
+
+.directory-page h3{
+    margin-left:15px;
+    padding-top:10px;
+    margin-bottom:15px;
+}
+
 
 /*FOOTER...................................................*/
 footer{
@@ -760,6 +835,18 @@ body{
     font-size:12px;
 }
 
+/*DIRECTORY................................................*/
+.cards section{
+    width:18rem;
+}
+.cards img{
+    width:150px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
 /*FOOTER....................................................*/
     footer{
         flex-direction:row;
@@ -1053,6 +1140,19 @@ body{
     padding-left:20px;
    
 }
+/*DIRECTORY................................................*/
+.cards section{
+    width:18rem;
+}
+.cards img{
+    width:150px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 /*FOOTER.................................................*/
     footer{

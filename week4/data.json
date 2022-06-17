@@ -1,0 +1,88 @@
+{
+    "businesses":[
+        {
+          "name": "Midlothian Dental Center",
+          "address": "4821 Commonwealth Centre Pkwy Midlothian VA 23112",
+          "phone": "(804) 794-4588",
+          "link": "https://www.midlothiandentalcenter.com/",
+          "logo": "https://uploads-ssl.webflow.com/61670562d27b98fbe3b6780c/61670562d27b98098bb67839_Logo.svg"
+        },
+        {
+          "name": "Salon del Sol",
+          "address": "4717 Brad Mcneer Parkway Midlothian VA 23112",
+          "phone": "(804) 335-0042",
+          "link": "https://sdssalon.com/",
+          "logo": "https://sdssalon.com/wp-content/themes/Sol2/img/salon-del-sol-logo.png" 
+        },
+        {
+          "name": "Hand and Stone",
+          "address": "12625 Stone Village Way Midlothian VA 23113",
+          "phone": "(804) 245-8181",
+          "link": "https://handandstone.com/",
+          "logo": "https://handandstone.com/slice/dist/images/svg/logo.svg" 
+        },
+        {
+            "name": "Woodlake Animal Hospital",
+            "address": "6511 Woodlake Village Parkway Midlothian VA 23112",
+            "phone": "(804) 639-1159",
+            "link": "https://woodlakeanimalhospital.net/",
+            "logo": "https://woodlakeanimalhospital.net/wp-content/uploads/2019/08/default-logo.png" 
+        },
+        {
+            "name": "ILoveKickboxing",
+            "address": "5203 Commonwealth Centre Parkway Midlothian, Virginia 23112",
+            "phone": "(804) 245-8050",
+            "link": "https://www.ilovekickboxing.com/",
+            "logo": "https://res.cloudinary.com/ilovekickboxing/image/upload/f_auto,fl_lossy,q_auto:eco/Brand/logo-main-1.png" 
+        },
+        {
+            "name": "The Midlothian Book Exchange",
+            "address": "13198 Midlothian Tnpk Midlothian, VA 23113",
+            "phone": "(804) 464-4622",
+            "link": "https://www.facebook.com/Midlobooks/",
+            "logo": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.6435-9/123707080_3385271808186514_3980406988353357901_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iNKkNnQ1EqAAX_G1ZKD&tn=yBtM87t5abAT4D1E&_nc_ht=scontent-lax3-1.xx&oh=00_AT-34caAfED5lkZUMxIumnI9vyvlqZT7Fs7oXaEQfhSd0A&oe=62CFA0BB" 
+        },
+        {
+            "name": "Packards Rock Shop / Stamp Company",
+            "address": "13131 Midlothian Tnpk Midlothian, VA 23113",
+            "phone": "(804) 794-5538",
+            "link": "https://www.packardstampandrock.com/",
+            "logo": "https://www.packardstampandrock.com/_images/_imagecache/leftlogo.png" 
+        },
+        {
+            "name": "Kroger",
+            "address": "13520 Midlothian Turnpike, Midlothian, VA 23113",
+            "phone": "(804) 594-1640",
+            "link": "https://www.kroger.com/",
+            "logo": "https://www.kroger.com/content/v2/binary/image/kroger_svg_logo--freshcart_kroger_color_logo--kroger.svg" 
+        },
+        {
+            "name": "Brick House Diner",
+            "address": "14101 Midlothian Turnpike Midlothian, VA 23113",
+            "phone": "(804) 794-8798",
+            "link": "https://www.brickhousediner.com/",
+            "logo": "https://www.brickhousediner.com/wp-content/uploads/2021/03/Brick-House-Logo.png" 
+        },
+        {
+            "name": "Midlthian Apothecary",
+            "address": "13502 Midlothian Turnpike, Midlothian, VA 23113",
+            "phone": "(804) 794-5592",
+            "link": "https://www.midloapothecary.com/",
+            "logo": "https://static.spacecrafted.com/c0a2fc7f72a243a49da348f49de09a78/i/a07bf03168684e20a2b4be2aff317861/1/5feFb8zhrk/doublelogo_2.jpg" 
+        },
+        {
+            "name": "Code Ninjas",
+            "address": "13569 Midlothian Turnpike, Midlothian, VA 23113",
+            "phone": "(804) 893-4285",
+            "link": "https://www.codeninjas.com/",
+            "logo": "https://www.codeninjas.com/assets/img/brands/codeNinjas/code-ninjas-logo.png" 
+        },
+        {
+            "name": "Wegmans",
+            "address": "12501 Stone Village Way, Midlothian, VA 23113",
+            "phone": "(804) 419-9900",
+            "link": "https://www.wegmans.com/",
+            "logo": "https://www.wegmans.com/wp-content/themes/wegmans/assets/images/WegmansLogo.min.svg" 
+        }
+    ]
+}
