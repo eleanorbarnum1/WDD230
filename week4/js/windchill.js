@@ -17,11 +17,12 @@
  window.addEventListener('load',function(){
     this.navigator.geolocation.getCurrentPosition(function(position){
     
-    let apiKey = '9e6bf538be1f1e79fd174c3fe367c3e6';
+    let apiKey = 'e37a7c605a8c75f91ee77e4f68841982';
     let lat = position.coords.latitude;
     let long = position.coords.longitude;
     console.log(lat);
     console.log(long);
+
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${apiKey}`)
     .then(function(resp) { return resp.json() }) // Convert data to json
@@ -32,10 +33,16 @@
       // catch any errors
     })
     function drawWeather( d ) {
-        var fahrenheit = Math.round(((parseFloat(d.main.temp)-273.15)*1.8)+32); 
-        var windSpeed = Math.round(parseFloat(d.wind.speed));
+        let fahrenheit = Math.round(((parseFloat(d.main.temp)-273.15)*1.8)+32); 
+        let windSpeed = Math.round(parseFloat(d.wind.speed));
+        let condition = d.weather[0].description;
+        let icon = d.weather[0].icon;
+        let desc = d.weather[0].description;
         document.getElementById("temp").innerHTML = fahrenheit + '&deg;F';
         document.getElementById("weather-p1").innerHTML = `Wind Speed: ${windSpeed} km/h`;
+        document.getElementById("weather-cond").innerHTML = `Condition: ${condition}.`;
+        document.getElementById("weather-image").setAttribute("src",`https://openweathermap.org/img/w/${icon}.png`);
+        document.getElementById("weather-image").setAttribute("alt",desc);
 
 
     if ((fahrenheit <= 50) && (windSpeed > 3)){
