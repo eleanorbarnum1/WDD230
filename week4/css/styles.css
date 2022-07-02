@@ -648,7 +648,7 @@ footer{
 #name, #number{
     margin:5px;
 }
-#linko, #linko visited{
+.linko, .linko visited{
     text-decoration:none;
     color:orange;
 }
