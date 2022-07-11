@@ -119,7 +119,7 @@ nav button{
 #navigation{
     list-style-type: none;
     padding:0;
-    
+    display:flex;
     background-color:transparent;
     
 }

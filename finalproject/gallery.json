@@ -1,0 +1,70 @@
+{
+    "photos":[
+        {
+            "image": "images/galleryimg1.jpg",
+            "service": "Highlights and toner"
+        },
+        {
+            "image": "images/galleryimg2.jpg",
+            "service": "Highlight, lowlight, and haircut"
+        },
+        {
+            "image": "images/galleryimg3.jpg",
+            "service": "Highlight, lowlight, and haircut"
+        },
+        {
+            "image": "images/galleryimg4.jpg",
+            "service": "Haircut"
+        },
+        {
+            "image": "images/galleryimg5.jpg",
+            "service": "Balayage and haircut"
+        },
+        {
+            "image": "images/galleryimg6.jpg",
+            "service": "Haircut"
+        },
+        {
+            "image": "images/galleryimg7.jpg",
+            "service": "Hightlight, toner , and haircut"
+        },
+        {
+            "image": "images/galleryimg8.jpg",
+            "service": "Highlight and haircut"
+        },
+        {
+            "image": "images/galleryimg9.jpg",
+            "service": "Higlight and haircut"
+        },
+        {
+            "image": "images/galleryimg10.jpg",
+            "service": "Hairstyle"
+        },
+        {
+            "image": "images/galleryimg11.png",
+            "service": "Platnum card and toner"
+        },
+        {
+            "image": "images/galleryimg12.png",
+            "service": "Highlight, lowlight, and haircut"
+        },
+        {
+            "image": "images/galleryimg13.png",
+            "service": "Balayage and haircut"
+        },
+        {
+            "image": "images/galleryimg14.png",
+            "service": "Highlight, lowlight, and haircut"
+        },
+        {
+            "image": "images/galleryimg15.jpg",
+            "service": "Pink color"
+        }
+    ]
+
+}
+
+
+
+
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salon Ryann Rose is a website for the mobile hair salon located in Midlothian, Virginia.">
+    <title>Salon Ryann Rose</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel = "stylesheet" href = "css/small.css">
+    <link rel = "stylesheet" href = "css/medium.css">
+    <link rel = "stylesheet" href = "css/large.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-grid">
+                <img id="header-logo" src="images/placeholder.jpg">
+                <nav>
+                   <button id="nav-btn">&#9776;</button>
+                    <ul id="navbar">
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./reservations.html">Reservations</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="main-img">
+                <img id="header-img" src="images/headerimg.jpg">
+            </section>
+            <section class="reserve-form">
+                <div class="field-area">
+                    <h2>Reserve an appointment</h2>
+                    <form method="get" action="thankyou.html">
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <label class="top">First Name* <input type="text" name="fname" required></label>
+                            <label class="top">Last Name* <input type="text" name="lname" required></label>
+                            <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>When was the last time you went to a hair salon?</legend>
+                            <label class="sbs"><input type="radio" name="salonInfo" value="never">Never</label>
+                            <label class="sbs"><input type="radio" name="salonInfo" value="week">Within the last week</label>
+                            <label class="sbs"><input type="radio" name="salonInfo" value="2weeks">Within the last 2 weeks</label>
+                            <label class="sbs"><input type="radio" name="salonInfo" value="month">Within the last month</label>
+                            <label class="sbs"><input type="radio" name="salonInfo" value="3months">Within the last 3 months</label>
+                            <label class="sbs"><input type="radio" name="salonInfo" value="6months">Within the last 6 months</label>
+                            <label class="sbs"><input type="radio" name="salonInfo" value="awhile">It's been a while</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>With the available services in mind, what are you interested in?</legend>
+                            <label class="textarea"><textarea id="story" name="story" rows="5" cols="33"></textarea></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Have you been serviced by Salon Ryann Rose before?</legend>
+                            <label class="sbs"><input type="radio" name="services" value="yes">Yes</label>
+                            <label class="sbs"><input type="radio" name="services" value="no">No</label>
+                        </fieldset>
+                        <input type="submit" value="Reserve NOW!" id="main-sec-grid-4">
+                    </form>
+                </div>
+            </section>
+
+        </main>
+    </body>
+    <footer>
+        <div class="footer-grid">
+            <section class="footer-part-1">
+                <img id="footer-logo" src="images/placeholder.jpg">
+                <p class="footer-text">random words ....?</p>
+                <p class="footer-text">idk yet!!! ahhhhhh</p>
+                <p class="footer-text">so much for planning</p>
+                <p class="footer-text">W is for wumbo, i wombo</p>
+            </section>
+            <section class="footer-part-2">
+                <h2 class="footer-h2">Location</h2>
+                <a class="footer-link" href="https://googlemaps.com">Google map locaiton</a>
+                <img id="footer-map" src="images/placeholder.jpg">
+            </section>
+            <section class="footer-part-3">
+                <h2 class="footer-h2">Contact Info</h2>
+                <p class="footer-text">blah blah blah</p>
+                <p class="footer-text">blah blah blah</p>
+                <p class="footer-text">blah blah blah</p>
+                <a class="footer-link2" href="https://googlemaps.com">Resource Page...</a>
+            </section>
+        </div>
+    </footer>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
