@@ -2,6 +2,16 @@
 
 
 
+nav ul#navbar{
+margin-right:0;
+margin-left:5em;
+}
+
+#header-logo{
+    width:150px;
+    margin-top:0;
+}
+
 .main-sec-1{
     grid-template-columns:.4fr 1fr 1fr .4fr;
     grid-template-rows:auto;
@@ -9,6 +19,8 @@
 #main-sec-grid-1{
     grid-column:1/2;
     grid-row:1/2;
+    max-width:250px;
+    min-width:150px;
 }
 #main-sec-grid-2{
     grid-column:2/3;
@@ -104,7 +116,7 @@ border-width:1px 1px 1px 1px;
     grid-template-columns:1fr 1fr 1fr;
 }
 
-}
+
 
 /*CONTACT............................................*/
 .contact-form{
@@ -123,6 +135,10 @@ border-width:1px 1px 1px 1px;
 /*REV.................................................*/
 .rev-main{
     border-width:1px 1px 1px 1px;
+
+}
+.rev-1 hr{
+    width:40%;
 }
 
 /*FOOTER..............................................*/
@@ -134,4 +150,9 @@ border-width:1px 1px 1px 1px;
 }
 .footer-link2{
     padding:20px; 
+}
+#footer-logo{
+    width:300px;
+}
+
 }
