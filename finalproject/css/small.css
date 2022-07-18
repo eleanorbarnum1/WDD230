@@ -155,6 +155,10 @@ nav ul li a:hover{
     min-height:210px;
     text-align:center;
 }
+.main-sec-2 a{
+    color:white;
+    
+}
 .main-java{
     grid-column:1/2;
     grid-row:2/3;

@@ -25,51 +25,29 @@ console.log(weekday_value);
 pText = document.querySelector(".javamainpage")
 
 
-var time= new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-console.log(time);
+var time= new Date();
+console.log(weekday_value);
 
-
-//sunday
 if (weekday_value == 0){
-    pText.textContent = "Unfortunately, Salon Ryann Rose is closed today.";
-    }
-//monday
-if ((weekday_value == 1) && ((time.hour >= 08) && (time.hour <= 05))){
-    pText.textContent = "Salon Ryann Rose is open!";
-    }else{
-    pText.textContent = "The salon is open on Mondays, but at this time, It's not operating."
+    pText.textContent = "The salon is closed on sundays, sorry."
+}else if (weekday_value == 1){
+    pText.textContent = "The salon is open today, which is Monday!"
+}else if (weekday_value == 2){
+    pText.textContent = "The salon is open today, which is Tuesday!"
+}else if (weekday_value == 3){
+    pText.textContent = "The salon is open today, which is Wednesday!"
+}else if (weekday_value == 4){
+    pText.textContent = "The salon is open today, which is Thursday!"
+}else if (weekday_value == 5){
+    pText.textContent = "The salon is open today, which is Friday!"
+}else if (weekday_value == 6){
+    pText.textContent = "The salon is open today, which is Saturday!"
 }
-//tuesday
-if ((weekday_value == 2) && ((time.hour >= 8) && (time.hour <= 5))){
-    pText.textContent = "Salon Ryann Rose is open!";
-    }else{
-    pText.textContent = "The salon is open on Tuesdays, but at this time, It's not operating."
-}
-//wednesday
-if ((weekday_value == 3) && ((time.hour >= 8) && (time.hour <= 5))){
-    pText.textContent = "Salon Ryann Rose is open!";
-    }else{
-    pText.textContent = "The salon is open on Wednesdays, but at this time, It's not operating."
-}
-//thursday
-if ((weekday_value == 4) && ((time.hour >= 8) && (time.hour <= 5))){
-    pText.textContent = "Salon Ryann Rose is open!";
-    }else{
-    pText.textContent = "The salon is open on Thursdays, but at this time, It's not operating."
-}
-//friday
-if ((weekday_value == 5) && ((time.hour >= 8) && (time.hour <= 3))){
-    pText.textContent = "Salon Ryann Rose is open!";
-    }else{
-    pText.textContent = "The salon is open on Fridays, but at this time, It's not operating."
-}
-//saturday
-if ((weekday_value == 6) && ((time.hour >= 8) && (time.hour <= 8))){
-    pText.textContent = "Salon Ryann Rose is open!";
-    }else{
-    pText.textContent = "The salon is open on Tuesdays, but at this time, It's not operating."
-}
- 
+
+
+
+
+
 
 //local storage visit count
 let section = document.querySelector('#localStorage');
@@ -81,7 +59,7 @@ if(!storedDate){
     section.textContent = "Ryann says: Welcome!";
 }else{
     let otherTime = currentDate.getTime() - lastDate.getTime();
-    let otherDay = math.round(otherTime/(1000*60*60*24));
+    let otherDay = Math.round(otherTime/(1000*60*60*24));
     section.textContent = `It's been ${otherDay} days since your last visit!`
 }
 localStorage.setItem('last_visited', currentDate);
