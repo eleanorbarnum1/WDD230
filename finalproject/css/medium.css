@@ -24,7 +24,7 @@ nav ul#navbar{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    margin-left:5em;
+    /*margin-left:5em;*/
     margin-right:1em;
     
 }
@@ -46,7 +46,7 @@ nav ul {
 }
 .homepage{
     grid-template-rows:auto;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:.5fr .5fr;
 }
 .main-sec-1{
    grid-column:1/3;
@@ -199,6 +199,7 @@ form label.top, form div{
 form label.sbs{
     font-size:18px;
 }
+
 
 /*GALLERY..................................*/
 

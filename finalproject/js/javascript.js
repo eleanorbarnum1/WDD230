@@ -71,7 +71,20 @@ if ((weekday_value == 6) && ((time.hour >= 8) && (time.hour <= 8))){
 }
  
 
+//local storage visit count
+let section = document.querySelector('#localStorage');
+let currentDate = new Date();
+let storedDate = localStorage.getItem('last_visited');
+let lastDate = new Date(storedDate);
 
+if(!storedDate){
+    section.textContent = "Ryann says: Welcome!";
+}else{
+    let otherTime = currentDate.getTime() - lastDate.getTime();
+    let otherDay = math.round(otherTime/(1000*60*60*24));
+    section.textContent = `It's been ${otherDay} days since your last visit!`
+}
+localStorage.setItem('last_visited', currentDate);
 
 // //sticky header:
 // window.onscroll = function() {stickyScroll()};
